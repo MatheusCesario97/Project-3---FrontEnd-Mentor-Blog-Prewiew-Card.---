@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    font-family: 'Figtree', sans-serif;
+    font-family: 'Fraunces', serif;
+ }
+    html {
+    background-color: hsl(47, 88%, 63%);
+}
+    .card {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 550px;
+    width: 350px;
+    border:solid black 2px;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 750px;
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+    
+   
+}
+    .card img {
+    display:flex;
+    height: 200px;
+    margin-left: 7px;
+    margin-top:120px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    transform: scale(1.00);
+    transition: .5s;
+    border:solid black 2px;
+}
+    .card img:hover{
+        transform: scale(1.02);
+        transition: .5s;
+    }
+
+    .button {
+    border:solid black 2px;
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color:hsl(47, 88%, 63%);
+    border-radius: 10px;
+    font-weight: 600;
+    transform: scale(1.0);
+    transition: 0.4s; 
+} 
+
+    h1 { 
+    padding:10px;
+    font-size: 30px;
+}
+    .data {
+    padding: 10px;
+    font-family: 'Figtree', sans-serif;
+    
+}
+    .p {
+    padding:10px;
+    font-family: 'Figtree', sans-serif;
+}
+    .name {
+    display:flex;
+    justify-content: center;
+    font-family: 'Figtree', sans-serif;
+    height: 20px;
+    width: 170px;
+    margin-left: 175px;
+    margin-top: 60px;
+    transform: scale(1.0);
+    transition: 0.3s;
+}
+    .name:hover{
+        color:hsl(47, 88%, 63%);
+        transform: scale(1.07);
+        transition: 0.3s;
+        cursor:pointer;
+    }
+
+    .button:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    cursor:pointer;
+}
+    .button::after{
+    content: "👨‍🎓 📚";
+    margin-left: 5px;
+}
+    .att {
+    display:  inline-block;
+    height: 400px;
+    margin-top:80px;
+    font-size: small;
+}
+
+    #img2 {
+    border:solid black 2px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 130px;
+}
+
+    
